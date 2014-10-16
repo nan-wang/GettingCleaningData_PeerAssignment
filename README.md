@@ -46,6 +46,8 @@ The files are organized in the following way:
 `-------`-- y_train.txt
 ```
 
-run_analysis.R is the main file in which all the processing scripts are included.
-CodeBook.md is a MarkDown file to give a better explaination of the processing procedure.
-Note HumanActivityRecognitionDataset folder is NOT included in this repository and is supposed to be downloaded from the address above and unzipped.
+_run_analysis.R_ is the main file in which all the processing scripts are included.
+
+_CodeBook.md_ is a MarkDown file to give a better explaination of the processing procedure.
+
+Note _HumanActivityRecognitionDataset_ folder is **NOT** included in this repository and is supposed to be downloaded from the address above and unzipped.
