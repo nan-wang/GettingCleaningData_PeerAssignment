@@ -2,7 +2,7 @@ Getting and Cleaning Data Course Project
 ========================================
 
 ## Declaration of Variables
-### Helper variables
+#### Helper variables
 - **feature_label** : load the names of the features.
 - **load_rows** : the number of rows to load. Set to 1 to 10299 for debugging; set to -1 for real running. 
 - **train_data** : load the training set.
@@ -12,7 +12,7 @@ Getting and Cleaning Data Course Project
 - **selected_indices** : the indicies of the columns that are either mean or standard deviation of the measurements.
 - **measure_variables** : the names of the columns (features) that are either mean or standard deviation of the measurements.
 
-### Main variables
+#### Main variables
 - **data_set** : the data.frame including all the features and labels.
 - **mean_and_std_data** : the data.frame including only the the mean and standard deviation for each measurement and labels.
 
