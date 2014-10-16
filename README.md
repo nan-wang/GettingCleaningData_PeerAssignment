@@ -6,6 +6,7 @@ Peer assignment for the Getting And Cleaning Data course on Coursera.org from JH
 This script is to processing the Human Activity Recognition data set from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
 
 The files are organized in the following way:
+```
 .
 |-- CodeBook.md
 |-- LICENSE
@@ -43,6 +44,7 @@ The files are organized in the following way:
 |       |-- X_train.txt
 |       |-- subject_train.txt
 `-------`-- y_train.txt
+```
 
 run_analysis.R is the main file in which all the processing scripts are included.
 CodeBook.md is a MarkDown file to give a better explaination of the processing procedure.
