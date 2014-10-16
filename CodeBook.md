@@ -27,3 +27,5 @@ Getting and Cleaning Data Course Project
 3. The grouped average of the measurements are calculated and storaged in two variables:
 	- **average_for_each_subject** : the average measurements for each subject.
 	- **average_for_each_activity** : the average measurements for each activity.
+
+4. We put the two variables from Step 3 into one data.frame **average_measure**, and set the row names to either **activity_label** or **subject_label**. This data.frame is saved as *average_measure.txt*.

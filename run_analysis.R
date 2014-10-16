@@ -63,3 +63,11 @@ melt_data <- melt(mean_and_std_data, id = c("subject_label", "activity_label"),
                   measure.vars = measure_variables)
 average_for_each_subject <- dcast(melt_data, subject_label ~ variable, mean)
 average_for_each_activity <- dcast(melt_data, activity_label ~ variable, mean)
+
+# save the data
+average_measure <- rbind(average_for_each_activity[,measure_variables],
+                         average_for_each_subject[, measure_variables])
+rownames(average_measure) <- c(as.character(
+      average_for_each_activity$activity_label),
+      as.character(average_for_each_subject$subject_label))
+write.table(average_measure, file="average_measure.txt", row.name=FALSE)
